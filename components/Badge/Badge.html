@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Badge</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./Badge.css" />
+    <link rel="stylesheet" href="../Avatar/Avatar.css" />
+    <link rel="stylesheet" href="../Typography/Typography.css" />
+    <link rel="stylesheet" href="../../docs.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <img src="../../assets/logo.png" class="logo--header" />
+      <h6 class="h6__typography typography--white">Morpho UI</h6>
+    </header>
+    <aside>
+      <a class="nav__link" href="../Alert/Alert.html">Alert</a>
+      <a class="nav__link" href="../Avatar/Avatar.html">Avatar</a>
+      <a class="nav__link--active" href="../Badge/Badge.html">Badge</a>
+      <a class="nav__link" href="../Badge/Button.html">Button</a>
+      <a class="nav__link" href="../Badge/Card.html">Card</a>
+      <a class="nav__link" href="../Badge/Input.html">Input</a>
+    </aside>
+    <main>
+      <span class="h5__typography typography--white">Badge</span>
+      <span class="subtitle2__typography typography--white">Examples</span>
+      <div class="component__container">
+        <button class="badge__avatar">
+          <span class="md-avatar round fit-image">
+            <img
+              src="https://images.unsplash.com/photo-1602870049368-9c8265ff3693?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
+              class="img-fit round md-avatar"
+              alt=""
+            />
+          </span>
+          <span class="badge_avatar badge__avatar--offline" />
+        </button>
+        <button class="badge__avatar">
+          <span class="md-avatar round fit-image">
+            <img
+              src="https://images.unsplash.com/photo-1602870049368-9c8265ff3693?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
+              class="img-fit round md-avatar"
+              alt=""
+            />
+          </span>
+          <span class="badge_avatar badge__avatar--online" />
+        </button>
+        <button class="badge__icon badge__icon--red">
+          <span class="badge__icon--counter icon__counter--red"> 100 </span>
+          <span class="fa fa-facebook" />
+        </button>
+        <button class="badge__icon badge__icon--green">
+          <span class="badge__icon--counter icon__counter--green"> 100 </span>
+          <span class="fa fa-facebook" />
+        </button>
+        <button class="badge__icon badge__icon--blue">
+          <span class="badge__icon--counter icon__counter--blue"> 100 </span>
+          <span class="fa fa-facebook" />
+        </button>
+        <button class="badge__icon badge__icon--yellow">
+          <span class="badge__icon--counter icon__counter--yellow"> 100 </span>
+          <span class="fa fa-facebook" />
+        </button>
+        <button class="badge__icon badge__icon--pink">
+          <span class="badge__icon--counter icon__counter--pink"> 100 </span>
+          <span class="fa fa-facebook" />
+        </button>
+      </div>
+      <span class="subtitle2__typography typography--white">Code</span>
+      <iframe
+        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=blackboard&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522badge__avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522md-avatar%2520round%2520fit-image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fimages.unsplash.com%252Fphoto-1602870049368-9c8265ff3693%253Fixlib%253Drb-1.2.1%2526ixid%253DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%2526auto%253Dformat%2526fit%253Dcrop%2526w%253D1169%2526q%253D80%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522img-fit%2520round%2520md-avatar%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge_avatar%2520badge__avatar--offline%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522badge__avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522md-avatar%2520round%2520fit-image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fimages.unsplash.com%252Fphoto-1602870049368-9c8265ff3693%253Fixlib%253Drb-1.2.1%2526ixid%253DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%2526auto%253Dformat%2526fit%253Dcrop%2526w%253D1169%2526q%253D80%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522img-fit%2520round%2520md-avatar%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge_avatar%2520badge__avatar--online%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522badge__icon%2520badge__icon--red%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge__icon--counter%2520icon__counter--red%2522%253E%2520100%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522fa%2520fa-facebook%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522badge__icon%2520badge__icon--green%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge__icon--counter%2520icon__counter--green%2522%253E%2520100%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522fa%2520fa-facebook%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522badge__icon%2520badge__icon--blue%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge__icon--counter%2520icon__counter--blue%2522%253E%2520100%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522fa%2520fa-facebook%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522badge__icon%2520badge__icon--yellow%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge__icon--counter%2520icon__counter--yellow%2522%253E%2520100%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522fa%2520fa-facebook%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522badge__icon%2520badge__icon--pink%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge__icon--counter%2520icon__counter--pink%2522%253E%2520100%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522fa%2520fa-facebook%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A"
+        style="
+          width: 1024px;
+          height: 987px;
+          border: 0;
+          transform: scale(1);
+          overflow: hidden;
+        "
+        sandbox="allow-scripts allow-same-origin"
+      >
+      </iframe>
+
+      <p class="body2__typography typography--white"></p>
+    </main>
+
+    <script src="" async defer></script>
+  </body>
+</html>
