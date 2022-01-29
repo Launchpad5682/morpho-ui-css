@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Button</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./Button.css" />
+    <link rel="stylesheet" href="../Typography/Typography.css" />
+    <link rel="stylesheet" href="../../docs.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body class="main-body">
+    <header class="header-section">
+      <img src="../../assets/logo.png" class="logo--header" />
+      <h6 class="h6__typography typography--white">Morpho UI</h6>
+    </header>
+    <aside class="sidebar">
+      <a class="nav__link" href="../Alert/Alert.html">Alert</a>
+      <a class="nav__link" href="../Avatar/Avatar.html">Avatar</a>
+      <a class="nav__link" href="../Badge/Badge.html">Badge</a>
+      <a class="nav__link--active" href="../Button/Button.html">Button</a>
+      <a class="nav__link" href="../Badge/Card.html">Card</a>
+      <a class="nav__link" href="../Badge/Input.html">Input</a>
+    </aside>
+    <main class="main-section">
+      <span class="h5__typography typography--white">Button</span>
+      <span class="subtitle2__typography typography--white">Examples</span>
+      <div class="component__container">
+        <button
+          class="button--sm button__solid button--red button__rounded--sm"
+        >
+          <span class="button__typography typography--white">Button Text</span>
+        </button>
+        <button
+          class="button--md button__outline button__outline--red button__rounded--md"
+        >
+          <span class="button__typography typography--red">Button Text</span>
+        </button>
+        <button
+          class="button--sm button__solid button--green button__rounded--sm button__icon"
+        >
+          <span class="button__typography typography--white">Button Text</span>
+        </button>
+        <button
+          class="button--lg button__solid button--yellow button__rounded--sm button__icon"
+        >
+          <span class="button__typography typography--white">Button Text</span>
+        </button>
+        <button
+          class="button--lg button__solid button--pink button__rounded--lg button__icon button__icon"
+        >
+          <span
+            class="fa fa-facebook icon__typography typography--white"
+          ></span>
+          <span class="button__typography typography--white">Button Text</span>
+        </button>
+        <button
+          class="button--sm button__outline button__outline--blue button__rounded--sm button__icon button__icon"
+        >
+          <span class="fa fa-facebook icon__typography typography--blue"></span>
+          <span class="button__typography typography--blue">Button Text</span>
+        </button>
+      </div>
+      <span class="subtitle2__typography typography--white">Code</span>
+      <iframe
+        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=blackboard&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522button--sm%2520button__solid%2520button--red%2520button__rounded--sm%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522button__typography%2520typography--white%2522%253EButton%2520Text%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522button--md%2520button__outline%2520button__outline--red%2520button__rounded--md%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522button__typography%2520typography--red%2522%253EButton%2520Text%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522button--sm%2520button__solid%2520button--green%2520button__rounded--sm%2520button__icon%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522button__typography%2520typography--white%2522%253EButton%2520Text%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522button--lg%2520button__solid%2520button--yellow%2520button__rounded--sm%2520button__icon%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522button__typography%2520typography--white%2522%253EButton%2520Text%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522button--lg%2520button__solid%2520button--pink%2520button__rounded--lg%2520button__icon%2520button__icon%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522fa%2520fa-facebook%2520icon__typography%2520typography--white%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522button__typography%2520typography--white%2522%253EButton%2520Text%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522button--sm%2520button__outline%2520button__outline--blue%2520button__rounded--sm%2520button__icon%2520button__icon%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522fa%2520fa-facebook%2520icon__typography%2520typography--blue%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522button__typography%2520typography--blue%2522%253EButton%2520Text%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A"
+        style="
+          width: 1024px;
+          height: 819px;
+          border: 0;
+          transform: scale(1);
+          overflow: hidden;
+        "
+        sandbox="allow-scripts allow-same-origin"
+      >
+      </iframe>
+
+      <p class="body2__typography typography--white"></p>
+    </main>
+
+    <script src="" async defer></script>
+  </body>
+</html>
