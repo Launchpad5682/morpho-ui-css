@@ -1,0 +1,265 @@
+@import url(../../global/colors.css);
+
+:root {
+  --padding-card: 15px;
+}
+
+.card__flexcolumn {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card__flexrow {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/*Sizes for card horizontal*/
+.card__flexcolumn--lg {
+  width: 30rem;
+}
+
+.card__flexcolumn--md {
+  width: 25rem;
+}
+
+.card__flexcolumn--sm {
+  width: 20rem;
+}
+
+/*Sizes for card vertical*/
+.card__flexrow--lg {
+  height: 20rem;
+  max-width: 50rem;
+}
+
+.card__flexrow--md {
+  height: 15rem;
+  max-width: 40rem;
+}
+
+.card__flexrow--sm {
+  height: 12rem;
+  max-width: 35rem;
+}
+
+@media screen and (min-width: 320px) and (max-width: 414px) {
+  .card__flexrow--lg {
+    height: 14rem;
+    max-width: 30rem;
+  }
+
+  .card__flexrow--md {
+    height: 12rem;
+    max-width: 30rem;
+  }
+
+  .card__flexrow--sm {
+    height: 10rem;
+    max-width: 30rem;
+  }
+}
+
+@media screen and (min-width: 414px) and (max-width: 834px) {
+  .card__flexrow--lg {
+    height: 14rem;
+    max-width: 40rem;
+  }
+
+  .card__flexrow--md {
+    height: 12rem;
+    max-width: 35rem;
+  }
+
+  .card__flexrow--sm {
+    height: 10rem;
+    max-width: 30rem;
+  }
+}
+
+.card__flexcolumn--headingoverlay {
+  position: absolute;
+  top: -10rem;
+  left: 0;
+  color: white;
+  padding: var(--padding-card);
+}
+
+.card__flexrow--heading {
+  /* position: absolute;
+  bottom: 0;
+  left: 0; */
+  color: white;
+  padding: var(--padding-card);
+}
+
+/*
+for grouping heading and image in one container 
+having relative postitioning in vertical align
+*/
+.container {
+  position: relative;
+  padding: var(--padding-card);
+}
+
+.limit--lines {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+
+/*not in use*/
+/* .title {
+  font-size: 2rem;
+  font-weight: 800;
+  padding: 0 var(--paddling-text);
+}
+
+.subtitle {
+  font-size: 1rem;
+  font-weight: 300;
+  padding: 0 var(--paddling-text);
+} */
+
+/*image fit in vertical and horizontal cards*/
+.image--fitheight {
+  height: 100%;
+  border-radius: 10px 0 0 10px;
+}
+
+.image--fitwidth {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+/*dismiss button positioning*/
+.dismiss__flexcolumn--position {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1;
+  margin: var(--padding-card);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dismiss__flexrow--position {
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  margin: 0 var(--padding-card);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Text only cards */
+.card--text-only {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  padding: var(--padding-card);
+  border-radius: 10px;
+}
+
+.card__text-only--dismiss--position {
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  margin-right: 2rem;
+}
+
+.card__textonly--title {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.card__textonly--subtitle {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+/* shadow */
+.card__shadow--red {
+  box-shadow: var(--tomato-red-light) 5px 4px 10px;
+}
+
+.card__shadow--green {
+  box-shadow: var(--green-teal-light) 5px 4px 10px;
+}
+
+.card__shadow--blue {
+  box-shadow: var(--azraq-blue-light) 5px 4px 10px;
+}
+
+.card__shadow--pink {
+  box-shadow: var(--jalapeno-red-light) 5px 4px 10px;
+}
+
+.card__shadow--yellow {
+  box-shadow: var(--squash-blossom-light) 5px 4px 10px;
+}
+
+.card__shadow--white {
+  box-shadow: var(--white) 5px 4px 10px;
+}
+
+.card__shadow--black {
+  box-shadow: var(--black) 5px 4px 10px;
+}
+
+/*Card border color*/
+.card__border--red {
+  border: 2px solid var(--tomato-red);
+}
+
+.card__border--green {
+  border: 2px solid var(--green-teal);
+}
+
+.card__border--yellow {
+  border: 2px solid var(--squash-blossom);
+}
+
+.card__border--blue {
+  border: 2px solid var(--azraq-blue);
+}
+
+.card__border--pink {
+  border: 2px solid var(--jalapeno-red);
+}
+
+.card__border--black {
+  border: 2px solid var(--black);
+}
+
+.card__border--white {
+  border: 2px solid var(--white);
+}
+
+.icon--size {
+  height: var(--icon-size);
+  width: var(--icon-size);
+}
+
+/* .icon--size:hover {
+  border-radius: 50%;
+  background-color: rgb(226, 226, 226);
+  color: black;
+} */
+
+/*Bottom container*/
+.bottom--container {
+  display: flex;
+  padding: var(--padding-card);
+  gap: var(--padding-card);
+}
