@@ -87,8 +87,9 @@
 
 /*Button Typography*/
 .button__typography {
-  font-size: clamp(10px, 2vw, 3rem);
+  font-size: clamp(10px, 1vw, 3rem);
   text-transform: uppercase;
+  padding: 0 5px;
 }
 
 /*typography color*/
