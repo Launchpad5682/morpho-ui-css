@@ -1,0 +1,47 @@
+@import url(./global/global.css);
+@import url(./global/colors.css);
+@import url(./components/Typography/Typography.css);
+
+* {
+  color: var(--white);
+}
+
+body {
+  box-sizing: border-box;
+  padding: 2rem;
+  background-color: var(--background-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100vw;
+  height: 100vh;
+}
+
+.logo {
+  width: 250px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 414px) {
+  .logo {
+    width: 100px;
+  }
+}
+@media screen and (min-width: 414px) and (max-width: 834px) {
+  .logo {
+    width: 150px;
+  }
+}
+
+.btn {
+  display: block;
+  background-color: transparent;
+  color: var(--green-teal);
+  border: solid 1px var(--green-teal);
+  border-radius: 2px;
+  outline: none;
+  font-size: 2.5rem;
+  padding: 1rem;
+  width: fit-content;
+  text-decoration: none;
+}
