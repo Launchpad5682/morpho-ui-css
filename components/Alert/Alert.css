@@ -1,0 +1,23 @@
+@import url(../../global/colors.css);
+
+.alert--box {
+  padding: 0.8rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.alert--red {
+  background-color: var(--tomato-red-light);
+}
+.alert--green {
+  background-color: var(--green-teal-light);
+}
+.alert--blue {
+  background-color: var(--azraq-blue-light);
+}
+.alert--yellow {
+  background-color: var(--squash-blossom-light);
+}
+.alert--pink {
+  background-color: var(--jalapeno-red-light);
+}
