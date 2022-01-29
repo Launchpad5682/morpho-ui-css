@@ -1,0 +1,10 @@
+/* global styling for any projcet */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  /*Making font size 10px which can be scaled in 10s*/
+  font-size: 62.5%;
+}
