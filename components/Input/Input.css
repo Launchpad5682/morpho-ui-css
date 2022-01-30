@@ -1,0 +1,164 @@
+@import url(../../global/colors.css);
+
+.field__container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.inputbox__container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 50px;
+  overflow: hidden;
+}
+
+.inputbox__container input {
+  width: 100%;
+  height: 100%;
+  font-size: 1.5rem;
+  padding-top: 20px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.input--white {
+  color: var(--white);
+}
+
+.inputbox__label--name {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.label__name--white {
+  color: var(--white);
+  border-bottom: 1px solid var(--white);
+}
+
+.label__name--black {
+  color: var(--black);
+  border-bottom: 1px solid var(--black);
+}
+
+.inputbox__container label {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+/*can't use ::after on input*/
+.inputbox__label--name::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  bottom: -1px;
+  transform: translateX(-100%);
+  transition: all 0.3s ease;
+}
+
+.inputbox__label--red::after {
+  border-bottom: 3px solid var(--tomato-red);
+}
+
+.inputbox__label--green::after {
+  border-bottom: 3px solid var(--green-teal);
+}
+
+.inputbox__label--blue::after {
+  border-bottom: 3px solid var(--azraq-blue);
+}
+
+.inputbox__label--yellow::after {
+  border-bottom: 3px solid var(--squash-blossom);
+}
+
+.inputbox__label--pink::after {
+  border-bottom: 3px solid var(--jalapeno-red);
+}
+
+.inputbox__label--content {
+  position: absolute;
+  left: 0;
+  bottom: 5px;
+  transition: all 0.3s ease;
+}
+
+.inputbox__container
+  input:focus
+  + .inputbox__label--name
+  .inputbox__label--content,
+.inputbox__container
+  input:valid
+  + .inputbox__label--name
+  .inputbox__label--content {
+  transform: translateY(-100%);
+}
+
+.inputbox__container
+  input:focus
+  + .inputbox__label--red
+  .inputbox__label--content,
+.inputbox__container
+  input:valid
+  + .inputbox__label--red
+  .inputbox__label--content {
+  color: var(--tomato-red);
+  transform: translateY(-100%);
+}
+
+.inputbox__container
+  input:focus
+  + .inputbox__label--green
+  .inputbox__label--content,
+.inputbox__container
+  input:valid
+  + .inputbox__label--green
+  .inputbox__label--content {
+  color: var(--green-teal);
+}
+
+.inputbox__container
+  input:focus
+  + .inputbox__label--blue
+  .inputbox__label--content,
+.inputbox__container
+  input:valid
+  + .inputbox__label--blue
+  .inputbox__label--content {
+  color: var(--azraq-blue);
+}
+
+.inputbox__container
+  input:focus
+  + .inputbox__label--yellow
+  .inputbox__label--content,
+.inputbox__container
+  input:valid
+  + .inputbox__label--yellow
+  .inputbox__label--content {
+  color: var(--squash-blossom);
+}
+
+.inputbox__container
+  input:focus
+  + .inputbox__label--pink
+  .inputbox__label--content,
+.inputbox__container
+  input:valid
+  + .inputbox__label--pink
+  .inputbox__label--content {
+  color: var(--jalapeno-red);
+}
+
+.inputbox__container input:focus + .inputbox__label--name::after,
+.inputbox__container input:valid + .inputbox__label--name::after {
+  transform: translateX(0%);
+}
