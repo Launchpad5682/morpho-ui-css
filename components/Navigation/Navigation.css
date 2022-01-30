@@ -1,0 +1,46 @@
+@import url(../../global/colors.css);
+
+:root {
+  --navigation--radius: 5px;
+  --navigation-padding: 10px;
+}
+
+.navigation__container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.navigation__icon {
+  cursor: pointer;
+  border-radius: var(--navigation--radius);
+  padding: var(--navigation-padding);
+}
+
+.navigation__icon--white {
+  border: solid 2px var(--white);
+}
+
+.navigation__icon--red {
+  border: solid 2px var(--tomato-red);
+}
+
+.navigation__icon--green {
+  border: solid 2px var(--green-teal);
+}
+
+.navigation__icon--blue {
+  border: solid 2px var(--azraq-blue);
+}
+
+.navigation__icon--yellow {
+  border: solid 2px var(--squash-blossom);
+}
+
+.navigation__icon--pink {
+  border: solid 2px var(--jalapeno-red);
+}
+
+.navigation__icon--dark {
+  border: solid 2px var(--background-color);
+}
