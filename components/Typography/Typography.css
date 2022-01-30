@@ -53,14 +53,14 @@
   font-size: 1.5rem;
   display: flex;
   align-items: center;
-  padding: 10px 0;
+  padding: 10px;
 }
 
 .subtitle2__typography {
   font-size: 2rem;
   display: flex;
   align-items: center;
-  padding: 10px 0;
+  padding: 10px;
 }
 
 /*mobile responsive subtitle*/
@@ -125,6 +125,10 @@
   /* font-size: 2rem; */
   font-size: clamp(10px, 2vw, 4rem);
   display: inline-flex;
+}
+
+.strike__line {
+  text-decoration: line-through;
 }
 
 /* @media screen and (min-width: 320px) and (max-width: 414px) {

@@ -1,0 +1,86 @@
+@import url(../Typography/Typography.css);
+@import url(../../global/colors.css);
+
+:root {
+  --padding-list: 10px;
+  --padding-list-item: 5px;
+  --list-width: 20rem;
+  --gap: 2rem;
+  --border-radius: 5px;
+  --list-item-height: 4rem;
+  --list-height: 310px;
+  --icon-padding: 10px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap);
+  padding: var(--padding-list);
+  width: var(--list-width);
+  border-radius: var(--border-radius);
+  max-height: var(--list-height);
+  overflow-y: auto;
+}
+
+.list--dark {
+  background-color: var(--background-color);
+  box-shadow: var(--white) 2px 5px 10px;
+}
+
+.list--white {
+  background-color: var(--white);
+  box-shadow: var(--background-color) 2px 5px 10px;
+}
+
+.list__item {
+  box-sizing: border-box;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 0 var(--padding-list-item);
+  min-height: var(--list-item-height);
+  border-radius: var(--border-radius);
+}
+
+.list__item--red:hover {
+  background-color: var(--tomato-red);
+}
+
+.list__item--green:hover {
+  background-color: var(--green-teal);
+}
+
+.list__item--yellow:hover {
+  background-color: var(--squash-blossom);
+}
+
+.list__item--blue:hover {
+  background-color: var(--azraq-blue);
+}
+
+.list__item--pink:hover {
+  background-color: var(--jalapeno-red);
+}
+
+.list__item--white:hover {
+  background-color: var(--white);
+  color: var(--background-color);
+}
+
+.list__item--dark:hover {
+  background-color: var(--background-color);
+  color: var(--white);
+}
+
+.list__item--delete {
+  margin-left: auto;
+}
+
+.list__icon {
+  /* display: inline-flex; */
+  padding: 0 var(--icon-padding);
+  /* justify-content: center;
+  align-items: center;
+  height: 100%; */
+}
