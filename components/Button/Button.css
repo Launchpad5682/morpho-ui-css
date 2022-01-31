@@ -1,0 +1,138 @@
+@import url(../../global/colors.css);
+
+.button__solid {
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  width: fit-content;
+}
+
+/*Button sizes*/
+.button--sm {
+  padding: 1rem;
+}
+
+.button--md {
+  padding: 1.5rem;
+}
+
+.button--lg {
+  padding: 2rem;
+}
+
+@media screen and (min-width: 320px) and (max-width: 414px) {
+  .button--lg {
+    padding: 12px;
+  }
+}
+
+.button__outline {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  width: fit-content;
+}
+
+.button__outline--red {
+  border: var(--tomato-red) 1px solid;
+  background-color: var(--tomato-red-light);
+  color: var(--tomato-red);
+}
+
+.button__outline--green {
+  border: var(--green-teal) 1px solid;
+  background-color: var(--green-teal-light);
+  color: var(--green-teal);
+}
+
+.button__outline--blue {
+  border: var(--azraq-blue) 1px solid;
+  background-color: var(--azraq-blue-light);
+  color: var(--azraq-blue);
+}
+
+.button__outline--yellow {
+  border: var(--squash-blossom) 1px solid;
+  background-color: var(--squash-blossom-light);
+  color: var(--squash-blossom);
+}
+
+.button__outline--pink {
+  border: var(--jalapeno-red) 1px solid;
+  background-color: var(--jalapeno-red-light);
+  color: var(--jalapeno-red);
+}
+
+.button__floating {
+  border: none;
+  border-radius: 50%;
+  aspect-ratio: 1;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  cursor: pointer;
+}
+
+.button__floating--sm {
+  padding: 10px;
+}
+.button__floating--md {
+  padding: 15px;
+}
+.button__floating--lg {
+  padding: 20px;
+}
+
+/*Button Colors*/
+.button--red {
+  background-color: var(--tomato-red);
+}
+
+.button--green {
+  background-color: var(--green-teal);
+}
+
+.button--blue {
+  background-color: var(--yue-guang-lan-blue);
+}
+
+.button--yellow {
+  background-color: var(--squash-blossom);
+}
+
+.button--pink {
+  background-color: var(--jalapeno-red);
+}
+
+/*Button rounded*/
+
+.button__rounded--sm {
+  border-radius: 2px;
+}
+
+.button__rounded--md {
+  border-radius: 5px;
+}
+
+.button__rounded--lg {
+  border-radius: 8px;
+}
+
+/*button icon*/
+
+.button__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
