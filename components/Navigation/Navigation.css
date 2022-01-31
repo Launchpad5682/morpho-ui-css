@@ -1,0 +1,171 @@
+@import url(../../global/colors.css);
+
+:root {
+  --navigation--radius: 5px;
+  --navigation-padding: 10px;
+  --drawer-padding: 5px;
+}
+
+.header {
+  width: 100%;
+  height: 6rem;
+  display: flex;
+  align-items: center;
+  column-gap: var(--navigation-padding);
+  padding: 0 var(--navigation-padding);
+}
+
+.header__nav {
+  margin-left: auto;
+  /* margin-right: var(--navigation-padding); */
+}
+
+.nav__list {
+  display: flex;
+  gap: var(--navigation-padding);
+}
+
+.navlist__item {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 375px) and (max-width: 870px) {
+  .header {
+    height: 5rem;
+  }
+}
+
+.header--red {
+  background-color: var(--tomato-red);
+}
+
+.header--green {
+  background-color: var(--green-teal);
+}
+
+.header--yellow {
+  background-color: var(--squash-blossom);
+}
+
+.header--blue {
+  background-color: var(--azraq-blue);
+}
+
+.header--pink {
+  background-color: var(--jalapeno-red);
+}
+
+.header--dark {
+  background-color: var(--background-color);
+}
+
+.header--white {
+  background-color: var(--white);
+}
+
+/*Bottom navigation*/
+.navigation__container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.navigation__icon {
+  cursor: pointer;
+  border-radius: var(--navigation--radius);
+  padding: var(--navigation-padding);
+}
+
+.navigation__icon--white {
+  border: solid 2px var(--white);
+}
+
+.navigation__icon--red {
+  border: solid 2px var(--tomato-red);
+}
+
+.navigation__icon--green {
+  border: solid 2px var(--green-teal);
+}
+
+.navigation__icon--blue {
+  border: solid 2px var(--azraq-blue);
+}
+
+.navigation__icon--yellow {
+  border: solid 2px var(--squash-blossom);
+}
+
+.navigation__icon--pink {
+  border: solid 2px var(--jalapeno-red);
+}
+
+.navigation__icon--dark {
+  border: solid 2px var(--background-color);
+}
+
+/*drawer*/
+
+.drawer__modal {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  background-color: transparent;
+  pointer-events: all;
+}
+
+.drawer__container {
+  position: absolute;
+  width: 25rem;
+  height: 100%;
+  padding: var(--navigation-padding);
+  box-sizing: border-box;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: var(--drawer-padding);
+}
+
+.drawer--on {
+  top: 0;
+  left: 0;
+  height: 100%;
+  transition: left 0.5s ease-out;
+}
+
+.drawer--off {
+  left: -30rem;
+  overflow: hidden;
+  transition: left 0.5s ease-out;
+}
+
+.drawer__container--dark {
+  background-color: var(--background-color);
+}
+
+.drawer__container--white {
+  background-color: var(--white);
+}
+
+.drawer__container--red {
+  background-color: var(--tomato-red-light);
+}
+
+.drawer__container--green {
+  background-color: var(--green-teal-light);
+}
+
+.drawer__container--blue {
+  background-color: var(--azraq-blue-light);
+}
+
+.drawer__container--pink {
+  background-color: var(--jalapeno-red-light);
+}
+
+.drawer__container--yellow {
+  background-color: var(--squash-blossom-light);
+}
