@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="Modal.css" />
+    <link rel="stylesheet" href="../Button/Button.css" />
+    <link rel="stylesheet" href="../Typography/Typography.css" />
+    <link rel="stylesheet" href="../../docs.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body class="main-body">
+    <header class="header-section">
+      <img src="../../assets/logo.png" class="logo--header" />
+      <h6 class="h6__typography typography--white">Morpho UI</h6>
+    </header>
+    <aside class="sidebar">
+      <a class="nav__link" href="../Alert/Alert.html">Alert</a>
+      <a class="nav__link" href="../Avatar/Avatar.html">Avatar</a>
+      <a class="nav__link" href="../Badge/Badge.html">Badge</a>
+      <a class="nav__link" href="../Button/Button.html">Button</a>
+      <a class="nav__link" href="../Card/Card.html">Card</a>
+      <a class="nav__link" href="../Input/Input.html">Input</a>
+      <a class="nav__link" href="../Lists/Lists.html">Lists</a>
+      <a class="nav__link--active" href="../Modal/Modal.html">Modal</a>
+      <a class="nav__link" href="../Typography/Typography.html">Typography</a>
+    </aside>
+    <main class="main-section">
+      <span class="h5__typography typography--white">Modal</span>
+      <!-- <span class="subtitle2__typography typography--white"></span> -->
+      <div class="component__container">
+        <button
+          class="button--sm button__outline button__outline--red button__rounded--sm"
+          id="modal-on-button"
+        >
+          <span class="button__typography typography--red">Modal On</span>
+        </button>
+        <div class="fullscreen--off" id="fullscreen-modal">
+          <div class="modal" id="modal-screen"></div>
+          <div class="modal__container modal__container--dark">
+            <div class="modal__container--header">
+              <span class="h6__typography typography--white"
+                >Modal Heading</span
+              >
+              <span class="h6__typography typography--white">
+                <span class="fa fa-close" id="close-icon"></span>
+              </span>
+            </div>
+            <div class="modal__container--body">
+              <p class="body2__typography typography--white">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
+                repellendus odit corporis, vel ipsa et molestias labore error
+                odio! Ratione reiciendis nulla cupiditate, veritatis ut ad
+                eligendi error iusto perspiciatis.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <iframe
+        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=blackboard&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522fullscreen--off%2522%2520id%253D%2522fullscreen-modal%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal%2522%2520id%253D%2522modal-screen%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522modal__container%2520modal__container--dark%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal__container--header%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522h6__typography%2520typography--white%2522%253EModal%2520Heading%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522h6__typography%2520typography--white%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522fa%2520fa-close%2522%2520id%253D%2522close-icon%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal__container--body%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522body2__typography%2520typography--white%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Tempora%2520repellendus%2520odit%2520corporis%252C%2520vel%2520ipsa%2520et%2520molestias%2520labore%2520error%2520odio%21%2520Ratione%2520%2509%2509%2509%2509%2509reiciendis%2520nulla%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520cupiditate%252C%2520veritatis%2520ut%2520ad%2520eligendi%2520error%2520iusto%2520perspiciatis.%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+        style="
+          width: 1024px;
+          height: 577px;
+          border: 0;
+          transform: scale(1);
+          overflow: hidden;
+        "
+        sandbox="allow-scripts allow-same-origin"
+      >
+      </iframe>
+
+      <p class="body2__typography typography--white"></p>
+    </main>
+
+    <script src="script.js" async defer></script>
+  </body>
+</html>
+
+<!-- 
+    
+ -->
