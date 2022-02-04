@@ -1,0 +1,85 @@
+@import url(../../global/colors.css);
+
+.fullscreen--off {
+  display: none;
+}
+
+.fullscreen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  color: var(--white);
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.modal {
+  background-color: rgba(222, 222, 222, 0.2);
+  color: white;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: all;
+}
+
+.modal__container {
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  width: 40rem;
+  height: 25rem;
+  padding: 10px;
+  border-radius: 10px;
+  overflow-y: hidden;
+}
+
+.modal__container--white {
+  box-shadow: var(--white) 5px 5px 5px;
+  background-color: var(--white);
+}
+
+.modal__container--dark {
+  box-shadow: var(--background-color) 5px 5px 5px;
+  background-color: var(--background-color);
+}
+
+.modal__container--header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.modal__container--body {
+  overflow-y: scroll;
+}
+
+.modal__container--heading {
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 320px) {
+  .modal__container {
+    display: flex;
+    opacity: 1;
+    flex-direction: column;
+    width: 15rem;
+    height: 15rem;
+    padding: 10px;
+    border-radius: 10px;
+  }
+}
+
+@media screen and (max-width: 450px) and (min-width: 330px) {
+  .modal__container {
+    display: flex;
+    opacity: 1;
+    flex-direction: column;
+    width: 20rem;
+    height: 20rem;
+    padding: 10px;
+    border-radius: 10px;
+  }
+}
