@@ -63,6 +63,10 @@
   /* padding: 10px; */
 }
 
+.center__typography {
+  text-align: center;
+}
+
 /*mobile responsive subtitle*/
 @media screen and (min-width: 320px) and (max-width: 414px) {
 }
