@@ -19,9 +19,11 @@
   @media screen and (max-width: 820px) {
     .grid-2-item {
       grid-template-columns: 1fr;
+      gap: 2rem;
     }
     .grid-3-item {
       grid-template-columns: 1fr;
+      gap: 2rem;
     }
   }
   
