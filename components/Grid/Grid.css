@@ -50,7 +50,7 @@
       gap: 2rem;
     }
     .grid-4-item {
-      grid-template-columns: repeat(3,1fr);
+      grid-template-columns: repeat(2,1fr);
       gap: 2rem;
     }
   }
