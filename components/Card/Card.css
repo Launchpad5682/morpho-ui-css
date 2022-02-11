@@ -10,6 +10,7 @@
   flex-direction: column;
   border-radius: 10px;
   overflow: hidden;
+  height: fit-content;
 }
 
 .card__flexrow {
