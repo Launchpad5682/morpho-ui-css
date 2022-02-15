@@ -60,6 +60,18 @@
   color: white;
 }
 
+@media screen and (max-width: 550px) {
+  .badge__icon {
+    font-size: 1.5rem;
+    width: 3rem;
+    height: 3rem;
+  }
+  .badge__icon--counter {
+    font-size: 0.8rem;
+    padding: 2px;
+  }
+}
+
 .icon__counter--red {
   background-color: var(--tomato-red);
 }

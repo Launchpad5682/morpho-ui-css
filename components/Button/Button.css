@@ -9,6 +9,7 @@
   align-content: center;
   flex-wrap: wrap;
   width: fit-content;
+  gap: 5px;
 }
 
 /*Button sizes*/
@@ -38,6 +39,7 @@
   align-content: center;
   flex-wrap: wrap;
   width: fit-content;
+  gap: 5px;
 }
 
 .button__outline--red {
