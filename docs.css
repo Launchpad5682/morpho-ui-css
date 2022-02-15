@@ -12,19 +12,18 @@
 }
 
 .main-body {
-  /* background: rgb(2, 0, 36);
-  background: linear-gradient(
-    45deg,
-    rgba(2, 0, 36, 1) 70%,
-    rgba(9, 9, 121, 1) 84%,
-    rgba(0, 212, 255, 1) 100%
-  ); */
-  background: rgb(0, 27, 38);
+  /* background: rgb(0, 27, 38);
   background: linear-gradient(
     45deg,
     rgba(0, 27, 38, 1) 68%,
     rgba(6, 98, 35, 1) 88%,
     rgba(0, 255, 131, 1) 100%
+  ); */
+  background: linear-gradient(
+    45deg,
+    rgba(2, 0, 36, 1) 70%,
+    rgba(9, 9, 121, 1) 84%,
+    rgba(0, 212, 255, 1) 100%
   );
   display: grid;
   width: 100vw;
