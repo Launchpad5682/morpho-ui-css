@@ -6,6 +6,7 @@
     <title></title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="../../assets/logo.gif" />
     <link rel="stylesheet" href="./Alert.css" />
     <link rel="stylesheet" href="../Typography/Typography.css" />
     <link rel="stylesheet" href="../../docs.css" />
@@ -16,16 +17,49 @@
   </head>
   <body class="main-body">
     <header class="header-section">
-      <img src="../../assets/logo.png" class="logo--header" />
-      <h6 class="h6__typography typography--white">Morpho UI</h6>
+      <a href="" class="logo-link">
+        <img src="../../assets/logo.gif" class="logo--header" />
+        <h6 class="h5__typography typography--white">Morpho UI</h6>
+      </a>
+      <div class="contact-links">
+        <a
+          href="https://github.com/Launchpad5682"
+          target="_blank"
+          class="contact-link"
+          ><span class="fa fa-github"></span
+        ></a>
+        <a
+          href="https://twitter.com/saurabh22suthar"
+          target="_blank"
+          class="contact-link"
+          ><span class="fa fa-twitter"></span
+        ></a>
+        <span class="drawer-icon" id="drawer-switch"
+          ><span class="fa fa-bars"></span
+        ></span>
+      </div>
     </header>
-    <aside class="sidebar">
+    <aside class="sidebar" id="sidebar">
+      <a href="" class="logo-link sidebar-logo">
+        <img src="../../assets/logo.gif" class="logo--header" />
+        <h6 class="h5__typography typography--white">Morpho UI</h6>
+      </a>
+      <a class="nav__link" href="../../getting-started.html">Getting Started</a>
       <a class="nav__link--active" href="../Alert/Alert.html">Alert</a>
       <a class="nav__link" href="../Avatar/Avatar.html">Avatar</a>
       <a class="nav__link" href="../Badge/Badge.html">Badge</a>
       <a class="nav__link" href="../Button/Button.html">Button</a>
-      <a class="nav__link" href="../Badge/Card.html">Card</a>
-      <a class="nav__link" href="../Badge/Input.html">Input</a>
+      <a class="nav__link" href="../Card/Card.html">Card</a>
+      <a class="nav__link" href="../Grid/Grid.html">Grid</a>
+      <a class="nav__link" href="../Image/Image.html">Image</a>
+      <a class="nav__link" href="../Input/Input.html">Input</a>
+      <a class="nav__link" href="../Lists/Lists.html">Lists</a>
+      <a class="nav__link" href="../Modal/Modal.html">Modal</a>
+      <a class="nav__link" href="../Navigation/Navigation.html">Navigation</a>
+      <a class="nav__link" href="../Rating/Rating.html">Rating</a>
+      <a class="nav__link" href="../Slider/Slider.html">Slider</a>
+      <a class="nav__link" href="../Snackbar/Snackbar.html">Snackbar</a>
+      <a class="nav__link" href="../Typography/Typography.html">Typography</a>
     </aside>
     <main class="main-section">
       <span class="h5__typography typography--white">Alert</span>
@@ -88,6 +122,6 @@
       <p class="body2__typography typography--white"></p>
     </main>
 
-    <script src="" async defer></script>
+    <script src="../../scripts/drawerUtitlity.js" async defer></script>
   </body>
 </html>
