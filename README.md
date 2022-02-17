@@ -49,3 +49,5 @@ It can be easily installed in any react project using ```npm i @launchpad5682/mo
 - Excitement: pink
 - Minimalistic sophistication: black
 
+### Credits
+- Logo: [@anjalii1102](https://twitter.com/anjalii1102)
