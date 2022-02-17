@@ -1,5 +1,5 @@
 <h1 align="center">Morpho-UI</h1>
-<p align="center"><img src="./assets/logo.png" height="120px" align="center"/></p>
+<p align="center"><img src="./assets/logo.gif" height="120px" align="center"/></p>
 <h2 align="center">Elegant, modular and easy-to-use css-utility-class-based component library</h2>
 </center>
 
@@ -12,7 +12,21 @@
 Building components repetitively is cumbersome and time-consuming. Building morpho-UI brings uniformity, reusability and less decision making in styling for all your projects. It contains the global styling which gives you variety of color choices and 
 components like buttons, alerts are provided with 5 CTA(call to action) colors(red, green, blue, yellow, and pink).
 ### How to install? 
-``````
+```
+ <head>
+ 	<link rel="stylesheet" href="https://morpho-ui-css-docs.netlify.app/global/global.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+```
+
+Documentation: [Link](https://morpho-ui-css-docs.netlify.app/)
+
+### React based package
+Project Link: [Link](https://github.com/Launchpad5682/morpho-ui)<br>
+It can be easily installed in any react project using ```npm i @launchpad5682/morpho-ui```.
 ### Components:
 - Alert
 - Avatar
@@ -25,6 +39,7 @@ components like buttons, alerts are provided with 5 CTA(call to action) colors(r
 - Snack Bar
 - Tabs
 - Typography
+
 ### Color Psychology: 
 - Success/peaceful optimism: green
 - Information: blue
