@@ -1,3 +1,4 @@
+// animation function with position x and time as parameters
 const animate = (x, time) =>
   anime({
     targets: ".logo",
@@ -7,8 +8,8 @@ const animate = (x, time) =>
     easing: "easeInOutSine",
   });
 
+// media queries for changing animation with screen size
 const mediaQueryOne = window.matchMedia("(max-width: 830x)");
-
 const mediaQueryTwo = window.matchMedia("(max-width: 420px)");
 
 if (mediaQueryOne.matches) {
@@ -19,6 +20,7 @@ if (mediaQueryOne.matches) {
   animate(1000, 7000);
 }
 
+// Copy line to system clipboard
 const copyBtn = document.getElementsByClassName("copy--btn")[0];
 const copySnippet = document.getElementsByClassName("clipboard")[0];
 

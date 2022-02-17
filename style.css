@@ -9,28 +9,12 @@
 body {
   box-sizing: border-box;
   padding: 2rem;
-  /* background: rgb(2, 0, 36); */
   background: linear-gradient(
     45deg,
     rgba(2, 0, 36, 1) 70%,
     rgba(9, 9, 121, 1) 84%,
     rgba(0, 212, 255, 1) 100%
   );
-  /*
-  background: rgb(23, 39, 46);
-  background: linear-gradient(
-    45deg,
-    rgba(23, 39, 46, 1) 75%,
-    rgba(6, 98, 35, 1) 88%,
-    rgba(0, 255, 131, 1) 100%
-  ); */
-  /* background: rgb(0, 27, 38);
-  background: linear-gradient(
-    45deg,
-    rgba(0, 27, 38, 1) 68%,
-    rgba(6, 98, 35, 1) 88%,
-    rgba(0, 255, 131, 1) 100%
-  ); */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -117,11 +101,11 @@ body {
 
 @media screen and (max-width: 830px) {
   .logo--name {
-    gap: 10px;
+    gap: 1rem;
   }
 
   .logo {
-    width: 50px;
+    width: 5rem;
   }
 
   .main--section {
@@ -145,12 +129,12 @@ body {
 
 @media screen and (max-width: 420px) {
   .logo--name {
-    gap: 10px;
+    gap: 1rem;
   }
 
   .logo {
-    width: 40px;
+    width: 4rem;
     position: relative;
-    left: -300px;
+    left: -30rem;
   }
 }
