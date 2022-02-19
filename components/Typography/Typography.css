@@ -18,82 +18,110 @@
 }
 
 /*heading typography*/
+/*need to add responsive typography using clamp*/
 .h1__typography {
-  font-size: clamp(40px, 5vw, 6rem);
+  /* font-size: clamp(40px, 5vw, 6rem); */
+  font-size: 9.6rem;
+  font-weight: 300;
 }
 .h2__typography {
-  font-size: clamp(30px, 3vw, 5rem);
+  /* font-size: clamp(30px, 3vw, 5rem); */
+  font-size: 6rem;
+  font-weight: 300;
 }
 .h3__typography {
-  font-size: clamp(20px, 2.5vw, 4rem);
+  /* font-size: clamp(20px, 2.5vw, 4rem); */
+  font-size: 4.8rem;
+  font-weight: 400;
 }
 .h4__typography {
-  font-size: clamp(18px, 2vw, 4.5rem);
+  /* font-size: clamp(18px, 2vw, 4.5rem); */
+  font-size: 3.4rem;
+  font-weight: 400;
 }
 .h5__typography {
-  font-size: clamp(15px, 1.8vw, 4rem);
+  /* font-size: clamp(15px, 1.8vw, 4rem); */
+  font-size: 2.4rem;
+  font-weight: 400;
 }
 .h6__typography {
-  font-size: clamp(12px, 1.5vw, 3rem);
+  /* font-size: clamp(12px, 1.5vw, 3rem); */
+  font-size: 2rem;
+  font-weight: 500;
 }
 
 /*body typogrphy*/
 .body1__typography {
-  font-size: clamp(14px, 2vw, 2rem);
-  line-height: clamp(16px, 2.4vw, 2.4rem);
+  /* font-size: clamp(14px, 2vw, 2rem);
+  line-height: clamp(16px, 2.4vw, 2.4rem); */
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.2rem;
 }
 
 .body2__typography {
-  font-size: clamp(12px, 2vw, 1.8rem);
-  line-height: clamp(14px, 2.2vw, 2.2rem);
+  /* font-size: clamp(12px, 2vw, 1.8rem);
+  line-height: clamp(14px, 2.2vw, 2.2rem); */
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2rem;
 }
 
 /*Subtitle typogrphy*/
 .subtitle1__typography {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   display: flex;
   align-items: center;
-  /* padding: 10px; */
+  font-weight: 400;
 }
 
 .subtitle2__typography {
-  font-size: 2rem;
+  font-size: 1.4rem;
   display: flex;
   align-items: center;
-  /* padding: 10px; */
+  font-weight: 500;
 }
 
 .center__typography {
   text-align: center;
 }
 
-/*mobile responsive subtitle*/
-@media screen and (min-width: 320px) and (max-width: 414px) {
-}
-@media screen and (min-width: 414px) and (max-width: 834px) {
-}
-
 /*Caption Typography*/
 .caption__typography {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .overline__typography {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   text-transform: uppercase;
-}
-
-/*mobile responsive subtitle*/
-@media screen and (min-width: 320px) and (max-width: 414px) {
-}
-@media screen and (min-width: 414px) and (max-width: 834px) {
 }
 
 /*Button Typography*/
 .button__typography {
-  font-size: clamp(10px, 1vw, 3rem);
+  /* font-size: clamp(10px, 1vw, 3rem); */
+  font-size: 1.6rem;
+  font-weight: 600;
   text-transform: uppercase;
   padding: 0 5px;
+}
+
+/*Icon typography*/
+.icon__typography {
+  font-size: 3rem;
+  /* font-size: clamp(10px, 2vw, 4rem); */
+  display: inline-flex;
+}
+
+.strike__line {
+  text-decoration: line-through;
+}
+
+.underline--typography {
+  text-decoration: underline;
+}
+
+.bold--typography {
+  font-weight: 800;
 }
 
 /*typography color*/
@@ -124,101 +152,3 @@
 .typography--pink {
   color: var(--jalapeno-red);
 }
-
-/*Icon typography*/
-.icon__typography {
-  /* font-size: 2rem; */
-  font-size: clamp(10px, 2vw, 4rem);
-  display: inline-flex;
-}
-
-.strike__line {
-  text-decoration: line-through;
-}
-
-.underline--typography{
-  text-decoration: underline;
-}
-
-.bold--typography{
-  font-weight: 800; 
-}
-
-/* @media screen and (min-width: 320px) and (max-width: 414px) {
-  .icon__typography {
-    font-size: 1.3rem;
-  }
-}
-
-@media screen and (min-width: 414px) and (max-width: 834px) {
-  .icon__typography {
-    font-size: 1.5rem;
-  }
-} */
-
-/* @media screen and (min-width: 320px) and (max-width: 414px) {
-  .button__typography {
-    font-size: 0.8rem;
-  }
-}
-
-@media screen and (min-width: 414px) and (max-width: 834px) {
-  .button__typography {
-    font-size: 1rem;
-  }
-} */
-
-/* @media screen and (min-width: 320px) and (max-width: 834px) {
-  .body1__typography {
-    font-size: 1rem;
-    line-height: 1.2rem;
-  }
-
-  .body2__typography {
-    font-size: 0.6rem;
-    line-height: 1rem;
-  }
-} */
-
-/*mobile responsive heading*/
-/* @media screen and (min-width: 320px) and (max-width: 414px) {
-  .h1__typography {
-    font-size: 2rem;
-  }
-  .h2__typography {
-    font-size: 1.5rem;
-  }
-  .h3__typography {
-    font-size: 1.2rem;
-  }
-  .h4__typography {
-    font-size: 1rem;
-  }
-  .h5__typography {
-    font-size: 0.8rem;
-  }
-  .h6__typography {
-    font-size: 0.6rem;
-  }
-}
-
-@media screen and (min-width: 414px) and (max-width: 834px) {
-  .h1__typography {
-    font-size: 2.5rem;
-  }
-  .h2__typography {
-    font-size: 2rem;
-  }
-  .h3__typography {
-    font-size: 1.8rem;
-  }
-  .h4__typography {
-    font-size: 1.5rem;
-  }
-  .h5__typography {
-    font-size: 1rem;
-  }
-  .h6__typography {
-    font-size: 0.8rem;
-  }
-} */
