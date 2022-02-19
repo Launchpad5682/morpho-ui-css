@@ -1,8 +1,4 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 <html>
   <head>
     <meta charset="utf-8" />
@@ -19,6 +15,7 @@
     />
   </head>
   <body class="main-body">
+    <!-- Header Section -->
     <header class="header-section">
       <a href="" class="logo-link">
         <img src="../../assets/logo.gif" class="logo--header" />
@@ -42,6 +39,7 @@
         ></span>
       </div>
     </header>
+    <!-- Sidebar/ drawer on smaller devices -->
     <aside class="sidebar" id="sidebar">
       <a href="" class="logo-link sidebar-logo">
         <img src="../../assets/logo.gif" class="logo--header" />
@@ -66,9 +64,17 @@
         >Typography</a
       >
     </aside>
+    <!-- main section -->
     <main class="main-section">
-      <span class="h5__typography typography--white">Typography</span>
-      <span class="subtitle2__typography typography--white">Example</span>
+      <span class="h4__typography typography--white">Typography</span>
+      <p class="body2__typography typography--white paragraph--beatify">
+        Typography is used to fulfill most common use cases for different types
+        of font sizes and weights. It includes H1, H2, H3, H4, H5, H6,
+        subtitle1, subtitle2, body1, body2, button, overline, caption, icon,
+        strike line, center and bold text utilities.
+      </p>
+      <span class="h5__typography typography--white">Example</span>
+      <!-- Component Example -->
       <div class="component__container">
         <h1 class="h1__typography typography--white">H1 heading</h1>
         <h2 class="h2__typography typography--white">H2 heading</h2>
@@ -76,13 +82,13 @@
         <h4 class="h4__typography typography--white">H4 heading</h4>
         <h5 class="h5__typography typography--white">H5 heading</h5>
         <h6 class="h6__typography typography--white">H6 heading</h6>
-        <p class="body1__typography typography--white">
+        <p class="body1__typography typography--white paragraph--beautify">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
           aperiam ducimus error, odit assumenda magnam nobis quidem placeat
           quaerat cum amet molestias accusamus recusandae sequi harum nam nihil,
           sapiente aliquid.
         </p>
-        <p class="body2__typography typography--white">
+        <p class="body2__typography typography--white paragraph--beautify">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
           aperiam ducimus error, odit assumenda magnam nobis quidem placeat
           quaerat cum amet molestias accusamus recusandae sequi harum nam nihil,
@@ -98,17 +104,15 @@
         <span class="icon__typography typography--white">
           <span class="fa fa-close"></span>
         </span>
+        <span class="button__typography typography--white center__typography"
+          >Center Text</span
+        >
       </div>
       <iframe
-        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=blackboard&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cspan%2520class%253D%2522h5__typography%2520typography--white%2522%253ETypography%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522subtitle2__typography%2520typography--white%2522%253EExample%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522component__container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%2520class%253D%2522h1__typography%2520typography--white%2522%253EH1%2520heading%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522h2__typography%2520typography--white%2522%253EH2%2520heading%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522h3__typography%2520typography--white%2522%253EH3%2520heading%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%2520class%253D%2522h4__typography%2520typography--white%2522%253EH4%2520heading%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch5%2520class%253D%2522h5__typography%2520typography--white%2522%253EH5%2520heading%253C%252Fh5%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch6%2520class%253D%2522h6__typography%2520typography--white%2522%253EH6%2520heading%253C%252Fh6%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522body1__typography%2520typography--white%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Praesentium%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520aperiam%2520ducimus%2520error%252C%2520odit%2520assumenda%2520magnam%2520nobis%2520quidem%2520placeat%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520quaerat%2520cum%2520amet%2520molestias%2520accusamus%2520recusandae%2520sequi%2520harum%2520nam%2520nihil%252C%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520sapiente%2520aliquid.%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522body2__typography%2520typography--white%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Praesentium%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520aperiam%2520ducimus%2520error%252C%2520odit%2520assumenda%2520magnam%2520nobis%2520quidem%2520placeat%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520quaerat%2520cum%2520amet%2520molestias%2520accusamus%2520recusandae%2520sequi%2520harum%2520nam%2520nihil%252C%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520sapiente%2520aliquid.%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522subtitle1__typography%2520typography--white%2522%253ESubtitle%25201%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522subtitle2__typography%2520typography--white%2522%253ESubtitle%25202%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522caption__typography%2520typography--white%2522%253ECaption%2520Text%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522button__typography%2520typography--white%2522%253EButton%2520Text%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522overline__typography%2520typography--white%2520strike__line%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253EOverline%2520Text%253C%252Fspan%250A%2520%2520%2520%2520%2520%2520%2520%2520%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522icon__typography%2520typography--white%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522fa%2520fa-close%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520"
-        style="
-          width: 824px;
-          height: 782px;
-          border: 0;
-          transform: scale(1);
-          overflow: hidden;
-        "
+        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=blackboard&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ch1%2520class%253D%2522h1__typography%2520typography--white%2522%253EH1%2520heading%253C%252Fh1%253E%250A%253Ch2%2520class%253D%2522h2__typography%2520typography--white%2522%253EH2%2520heading%253C%252Fh2%253E%250A%253Ch3%2520class%253D%2522h3__typography%2520typography--white%2522%253EH3%2520heading%253C%252Fh3%253E%250A%253Ch4%2520class%253D%2522h4__typography%2520typography--white%2522%253EH4%2520heading%253C%252Fh4%253E%250A%253Ch5%2520class%253D%2522h5__typography%2520typography--white%2522%253EH5%2520heading%253C%252Fh5%253E%250A%253Ch6%2520class%253D%2522h6__typography%2520typography--white%2522%253EH6%2520heading%253C%252Fh6%253E%250A%253Cp%2520class%253D%2522body1__typography%2520typography--white%2520paragraph--beautify%2522%253E%250A%2520%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Praesentium%250A%2520%2520aperiam%2520ducimus%2520error%252C%2520odit%2520assumenda%2520magnam%2520nobis%2520quidem%2520placeat%250A%2520%2520quaerat%2520cum%2520amet%2520molestias%2520accusamus%2520recusandae%2520sequi%2520harum%2520nam%2520nihil%252C%250A%2520%2520sapiente%2520aliquid.%250A%253C%252Fp%253E%250A%253Cp%2520class%253D%2522body2__typography%2520typography--white%2520paragraph--beautify%2522%253E%250A%2520%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Praesentium%250A%2520%2520aperiam%2520ducimus%2520error%252C%2520odit%2520assumenda%2520magnam%2520nobis%2520quidem%2520placeat%250A%2520%2520quaerat%2520cum%2520amet%2520molestias%2520accusamus%2520recusandae%2520sequi%2520harum%2520nam%2520nihil%252C%250A%2520%2520sapiente%2520aliquid.%250A%253C%252Fp%253E%250A%253Cspan%2520class%253D%2522subtitle1__typography%2520typography--white%2522%253ESubtitle%25201%253C%252Fspan%253E%250A%253Cspan%2520class%253D%2522subtitle2__typography%2520typography--white%2522%253ESubtitle%25202%253C%252Fspan%253E%250A%253Cspan%2520class%253D%2522caption__typography%2520typography--white%2522%253ECaption%2520Text%253C%252Fspan%253E%250A%253Cspan%2520class%253D%2522button__typography%2520typography--white%2522%253EButton%2520Text%253C%252Fspan%253E%250A%253Cspan%2520class%253D%2522overline__typography%2520typography--white%2520strike__line%2522%250A%2520%2520%253EOverline%2520Text%253C%252Fspan%250A%253E%250A%253Cspan%2520class%253D%2522icon__typography%2520typography--white%2522%253E%250A%2520%2520%253Cspan%2520class%253D%2522fa%2520fa-close%2522%253E%253C%252Fspan%253E%250A%253C%252Fspan%253E%250A%253Cspan%2520class%253D%2522button__typography%2520typography--white%2520center__typography%2522%250A%2520%2520%253ECenter%2520Text%253C%252Fspan%250A%253E"
+        style="width: 757px; height: 763px"
         sandbox="allow-scripts allow-same-origin"
+        class="iframe--code"
       >
       </iframe>
       <p class="body2__typography typography--white"></p>
