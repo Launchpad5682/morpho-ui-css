@@ -28,10 +28,12 @@ body {
 .logo--name {
   display: flex;
   gap: 20px;
+  align-items: center;
+  justify-content: center;
 }
 
 .logo {
-  width: 80px;
+  width: 5.5rem;
   position: relative;
   left: -1000px;
 }
@@ -74,7 +76,9 @@ body {
   font-size: 2.5rem;
   font-weight: 200;
   align-items: center;
-  gap: 3rem;
+  justify-content: center;
+  width: 100%;
+  gap: 2rem;
 }
 
 .copy--snippet {
@@ -85,6 +89,7 @@ body {
   gap: 2rem;
   padding: 0 2rem;
   border-radius: 1rem;
+  font-size: 2rem;
 }
 
 .copy--btn {
@@ -101,6 +106,21 @@ body {
   background-color: rgba(0, 0, 0, 70%);
 }
 
+@media screen and (max-width: 1300px) {
+  .btn--box {
+    font-size: 1.5rem;
+    flex-direction: column;
+  }
+
+  .copy--snippet {
+    font-size: 1.5rem;
+  }
+
+  .copy--btn {
+    font-size: 1.2rem;
+  }
+}
+
 @media screen and (max-width: 830px) {
   .logo--name {
     gap: 1rem;
@@ -114,18 +134,9 @@ body {
     width: 100%;
   }
 
-  .btn--box {
-    font-size: 1.5rem;
-    flex-direction: column;
-  }
-
   .copy--snippet {
     gap: 1rem;
     padding: 1rem;
-  }
-
-  .copy--btn {
-    font-size: 1.2rem;
   }
 }
 
