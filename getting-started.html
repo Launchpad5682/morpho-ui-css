@@ -15,10 +15,11 @@
     />
   </head>
   <body class="main-body">
+    <!-- header section -->
     <header class="header-section">
       <a href="" class="logo-link">
         <img src="../../assets/logo.gif" class="logo--header" />
-        <h6 class="h5__typography typography--white">Morpho UI</h6>
+        <h6 class="h4__typography typography--white">Morpho UI</h6>
       </a>
       <div class="contact-links">
         <a
@@ -38,6 +39,7 @@
         ></span>
       </div>
     </header>
+    <!-- Sidebar -->
     <aside class="sidebar" id="sidebar">
       <a href="" class="logo-link sidebar-logo">
         <img src="../../assets/logo.gif" class="logo--header" />
@@ -69,76 +71,57 @@
       >
     </aside>
     <main class="main-section">
+      <!-- Title -->
       <span class="h5__typography typography--white">Getting Started</span>
-      <!-- <span class="subtitle2__typography typography--white"></span> -->
+      <!-- How to use guide -->
       <div class="component__container">
-        <span class="subtitle2__typography typography--white">How to use?</span>
-        <p class="body1__typography typography--white paragraph--beautify">
+        <span class="h5__typography typography--white">How to use?</span>
+        <p class="body2__typography typography--white paragraph--beautify">
           You can use morpho-ui by importing it directly in html file using the
           following code.
         </p>
         <iframe
           src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=blackboard&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Chead%253E%250A%2520%2509%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fmorpho-ui-css-docs.netlify.app%252Fglobal%252Fglobal.css%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Clink%250A%2520%2520%2520%2520%2520%2520rel%253D%2522stylesheet%2522%250A%2520%2520%2520%2520%2520%2520href%253D%2522https%253A%252F%252Fcdnjs.cloudflare.com%252Fajax%252Flibs%252Ffont-awesome%252F4.7.0%252Fcss%252Ffont-awesome.min.css%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%253C%252Fhead%253E"
-          style="
-            width: 951px;
-            height: 316px;
-            border: 0;
-            transform: scale(1);
-            overflow: hidden;
-          "
+          style="width: 951px; height: 316px"
+          class="iframe--code"
           sandbox="allow-scripts allow-same-origin"
         >
         </iframe>
-        <p class="body1__typography typography--white paragraph--beautify">
+        <p class="body2__typography typography--white paragraph--beautify">
           Or you can import directly in your CSS file using the following code.
         </p>
         <iframe
           src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=blackboard&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%250A%2540import%2520url%28%2522https%253A%252F%252Fmorpho-ui-css-docs.netlify.app%252Fglobal%252Fglobal.css%2522%29%253B"
-          style="
-            width: 757px;
-            height: 223px;
-            border: 0;
-            transform: scale(1);
-            overflow: hidden;
-          "
+          style="width: 757px; height: 223px"
+          class="iframe--code"
           sandbox="allow-scripts allow-same-origin"
         >
         </iframe>
-        <p class="body1__typography typography--white paragraph--beautify">
+        <p class="body2__typography typography--white paragraph--beautify">
           You can even directly import styles for specific components using
           /components/ComponentName/ComponentName.css.
         </p>
         <iframe
           src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=blackboard&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%250A%2540import%2520url%28%2522https%253A%252F%252Fmorpho-ui-css-docs.netlify.app%252Fcomponents%252FAlert%252FAlert.css%2522%29%253B"
-          style="
-            width: 833px;
-            height: 223px;
-            border: 0;
-            transform: scale(1);
-            overflow: hidden;
-          "
+          style="width: 833px; height: 223px"
+          class="iframe--code"
           sandbox="allow-scripts allow-same-origin"
         >
         </iframe>
-        <p class="body1__typography typography--white paragraph--beautify">
+        <p class="body2__typography typography--white paragraph--beautify">
           You can also import it using <code>npm</code> for a react project. It
           is built using Typescript, CSS and Storybook. Currently, it doesn't
           have all the features but will support in some time.
         </p>
         <iframe
           src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=blackboard&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=npm%2520i%2520%2540launchpad5682%252Fmorpho-ui"
-          style="
-            width: 403px;
-            height: 205px;
-            border: 0;
-            transform: scale(1);
-            overflow: hidden;
-          "
+          style="width: 403px; height: 205px"
+          class="iframe--code"
           sandbox="allow-scripts allow-same-origin"
         >
         </iframe>
-        <span class="subtitle2__typography typography--white">Motivation</span>
-        <p class="body1__typography typography--white paragraph--beautify">
+        <span class="h5__typography typography--white">Motivation</span>
+        <p class="body2__typography typography--white paragraph--beautify">
           Building components repetitively is cumbersome and time-consuming.
           Building morpho-UI brings uniformity, reusability and less decision
           making in styling for all your projects. It contains the global
