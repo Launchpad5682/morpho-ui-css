@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Image</title>
+    <link rel="shortcut icon" href="../../assets/logo.gif" />
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="Image.css" />
@@ -15,6 +16,7 @@
     />
   </head>
   <body class="main-body">
+    <!-- header -->
     <header class="header-section">
       <a href="" class="logo-link">
         <img src="../../assets/logo.gif" class="logo--header" />
@@ -38,6 +40,7 @@
         ></span>
       </div>
     </header>
+    <!-- Sidebar -->
     <aside class="sidebar" id="sidebar">
       <a href="" class="logo-link sidebar-logo">
         <img src="../../assets/logo.gif" class="logo--header" />
@@ -61,8 +64,12 @@
       <a class="nav__link" href="../Typography/Typography.html">Typography</a>
     </aside>
     <main class="main-section">
-      <span class="h5__typography typography--white">Image</span>
-      <span class="subtitle2__typography typography--white">Examples</span>
+      <span class="h4__typography typography--white">Image</span>
+      <p class="body1__typography typography--white paragraph--beautify">
+        You just need to wrap this image component into a height and width
+        defined container component. It'll be a responsive image.
+      </p>
+      <span class="h5__typography typography--white">Examples</span>
       <div class="component__container">
         <img
           src="https://images.unsplash.com/photo-1639905517737-a994704df20c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
@@ -75,16 +82,11 @@
           class="image__fit"
         />
       </div>
-      <span class="subtitle2__typography typography--white">Code</span>
+      <span class="h5__typography typography--white">Code</span>
       <iframe
         src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=blackboard&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fimages.unsplash.com%252Fphoto-1639905517737-a994704df20c%253Fixlib%253Drb-1.2.1%2526ixid%253DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%2526auto%253Dformat%2526fit%253Dcrop%2526w%253D1170%2526q%253D80%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522image%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522image__rounded%2520image__fit%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fimages.unsplash.com%252Fphoto-1639905517737-a994704df20c%253Fixlib%253Drb-1.2.1%2526ixid%253DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%2526auto%253Dformat%2526fit%253Dcrop%2526w%253D1170%2526q%253D80%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522image%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522image__fit%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%252F%253E"
-        style="
-          width: 1024px;
-          height: 409px;
-          border: 0;
-          transform: scale(1);
-          overflow: hidden;
-        "
+        style="width: 1024px; height: 409px"
+        class="iframe--code"
         sandbox="allow-scripts allow-same-origin"
       >
       </iframe>
