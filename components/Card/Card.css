@@ -37,16 +37,19 @@
 /*Sizes for card vertical*/
 .card__flexrow--lg {
   height: 20rem;
+  min-height: 20rem;
   max-width: 40rem;
 }
 
 .card__flexrow--md {
   height: 15rem;
+  min-height: 15rem;
   max-width: 30rem;
 }
 
 .card__flexrow--sm {
   height: 12rem;
+  min-height: 12rem;
   max-width: 25rem;
 }
 
