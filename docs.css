@@ -52,6 +52,9 @@
   width: 100%;
   box-sizing: border-box;
   padding: 30px 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 .sidebar {
@@ -67,7 +70,7 @@
 }
 
 .nav__link {
-  font-size: 2.5rem;
+  font-size: 2rem;
   text-decoration: none;
   box-sizing: border-box;
   color: var(--white);
@@ -81,7 +84,7 @@
 
 .nav__link--active {
   background-color: white;
-  font-size: 2.5rem;
+  font-size: 2rem;
   text-decoration: none;
   box-sizing: border-box;
   color: var(--azraq-blue);
@@ -95,7 +98,7 @@
 
 .nav__link:hover {
   background-color: white;
-  font-size: 2.5rem;
+  font-size: 2rem;
   text-decoration: none;
   box-sizing: border-box;
   color: var(--azraq-blue);
@@ -170,9 +173,14 @@
 }
 
 /* using only because there's no different iframe behaviour expected */
-iframe {
+.iframe--code {
   max-width: 100%;
+  width: 100rem;
   overflow-x: auto;
+  max-height: 100%;
+  min-height: 100%;
+  border: 0;
+  margin: 1rem 0;
 }
 
 /*showing colors*/
