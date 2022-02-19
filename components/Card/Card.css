@@ -36,7 +36,7 @@
 
 /*Sizes for card vertical*/
 .card__flexrow--lg {
-  height: 20rem;
+  height: 25rem;
   min-height: 20rem;
   max-width: 40rem;
 }
@@ -72,7 +72,6 @@
 
 @media screen and (min-width: 414px) and (max-width: 834px) {
   .card__flexrow--lg {
-    height: 20rem;
     max-width: 35rem;
   }
 
