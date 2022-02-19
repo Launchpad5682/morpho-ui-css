@@ -55,7 +55,6 @@
 
 @media screen and (min-width: 320px) and (max-width: 414px) {
   .card__flexrow--lg {
-    height: 20rem;
     max-width: 30rem;
   }
 
@@ -72,7 +71,7 @@
 
 @media screen and (min-width: 414px) and (max-width: 834px) {
   .card__flexrow--lg {
-    max-width: 35rem;
+/*     max-width: 35rem; */
   }
 
   .card__flexrow--md {
