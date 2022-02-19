@@ -2,13 +2,13 @@
 
 :root {
   --navigation--radius: 5px;
-  --navigation-padding: 10px;
+  --navigation-padding: 1rem;
   --drawer-padding: 5px;
 }
 
 .header {
   width: 100%;
-  height: 10vh;
+  height: 8rem;
   display: flex;
   align-items: center;
   column-gap: var(--navigation-padding);
@@ -31,7 +31,7 @@
 
 @media screen and (min-width: 375px) and (max-width: 870px) {
   .header {
-    height: 8vh;
+    height: 6rem;
   }
 }
 
