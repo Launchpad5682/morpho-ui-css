@@ -24,6 +24,7 @@
 /*Sizes for card horizontal*/
 .card__flexcolumn--lg {
   width: 30rem;
+  min-height: 25rem;
 }
 
 .card__flexcolumn--md {
