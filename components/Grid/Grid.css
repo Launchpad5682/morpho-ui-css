@@ -3,8 +3,6 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 5rem;
-    justify-items: center;
-    align-items: center;
   }
   
   .grid-3-item {
@@ -12,8 +10,6 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 5rem;
-    justify-items: center;
-    align-items: center;
   }
 
 .grid-4-item {
@@ -21,8 +17,6 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 4rem;
-    justify-items: center;
-    align-items: center;
   }
   
   @media screen and (max-width: 1000px){
