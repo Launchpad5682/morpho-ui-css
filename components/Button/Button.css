@@ -138,3 +138,42 @@
   align-content: center;
   flex-wrap: wrap;
 }
+
+/* NavLink Button */
+.button__nav {
+  font-size: 2rem;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  width: fit-content;
+  gap: 5px;
+  text-decoration: underline;
+  background-color: transparent;
+}
+
+.button__nav--white {
+  text-decoration-color: var(--white);
+}
+
+.button__nav--black {
+  text-decoration-color: var(--black);
+}
+
+/*Only to show*/
+.white--bgr {
+  background-color: white;
+  width: fit-content;
+}
+
+.button__nav--white:hover {
+  background-color: rgb(165, 165, 165);
+}
+
+.button__nav--black:hover {
+  background-color: rgb(165, 165, 165);
+}
