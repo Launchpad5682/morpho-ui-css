@@ -38,6 +38,7 @@
     min-height: 6rem;    
     flex-wrap: wrap; 
     height: fit-content;
+    min-height: max(max-content, 6rem);
   }
 }
 
