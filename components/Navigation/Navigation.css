@@ -12,6 +12,7 @@
   min-height: 8rem;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   column-gap: var(--navigation-padding);
   padding: 0 var(--navigation-padding);
 }
