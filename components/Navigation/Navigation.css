@@ -10,11 +10,12 @@
   width: 100%;
   height: 8rem;
   min-height: 8rem;
+  max-height: fit-content;
   display: flex;
   align-items: center;
   justify-content: space-between;
   column-gap: var(--navigation-padding);
-  padding: 0 var(--navigation-padding);
+  padding: var(--navigation-padding);
 }
 
 .header__nav {
