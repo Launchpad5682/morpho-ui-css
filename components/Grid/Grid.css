@@ -18,6 +18,10 @@
     grid-template-columns: repeat(4, 1fr);
     gap: 4rem;
   }
+
+.center--grid {
+    margin: 0 auto;
+  }
   
   @media screen and (max-width: 1000px){
     .grid-4-item{
