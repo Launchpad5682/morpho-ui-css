@@ -145,6 +145,8 @@
 
 .drawer--off {
   left: -30rem;
+  top: 0;
+  bottom: 0;
   overflow: hidden;
   transition: left 0.5s ease-out;
 }
