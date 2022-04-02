@@ -5,8 +5,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 50rem;
-  width: 100%;
+  max-width: 100%;
+  width: 50rem;
   border-radius: 1rem;
 }
 
