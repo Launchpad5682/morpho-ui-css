@@ -23,7 +23,7 @@ components like buttons, alerts are provided with 5 CTA(call to action) colors(r
   </head>
 ```
 
-Documentation: [Link](https://morpho-ui-css-docs.netlify.app/)
+Documentation: [Link](https://morpho-ui-css-docs.netlify.app/)<br/>
 React based version: [link](https://github.com/Launchpad5682/morpho-ui)
 
 ### React based package
